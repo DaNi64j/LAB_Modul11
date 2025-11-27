@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram name="Page-1" id="bk9awlme3qlFKVJFLpgF">
+    <mxGraphModel dx="2605" dy="1405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kaX32r68s56GTiOCYPDK-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="User Management" vertex="1">
+          <mxGeometry height="54" width="187" x="20" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Order Management" vertex="1">
+          <mxGeometry height="54" width="196" x="330" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Route Planning" vertex="1">
+          <mxGeometry height="54" width="167" x="660" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Vehicle Tracking" vertex="1">
+          <mxGeometry height="54" width="176" x="655" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Payment Processing" vertex="1">
+          <mxGeometry height="54" width="200" x="643" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Notifications" vertex="1">
+          <mxGeometry height="54" width="151" x="667" y="332" as="geometry" />
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-7" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="UserAPI" vertex="1">
+          <mxGeometry height="70" width="70" x="190" y="444.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-8" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="OrderAPI" vertex="1">
+          <mxGeometry height="79" width="79" x="301" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-9" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="RouteAPI" vertex="1">
+          <mxGeometry height="79" width="79" x="411" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-10" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="PaymentAPI" vertex="1">
+          <mxGeometry height="99" width="99" x="520" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-11" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="NotifyAPI" vertex="1">
+          <mxGeometry height="81" width="81" x="651" y="439" as="geometry" />
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="External Map Service" vertex="1">
+          <mxGeometry height="54" width="210" x="977" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-13" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="GPS Tracking System" vertex="1">
+          <mxGeometry height="54" width="207" x="979" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-14" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Payment Gateway" vertex="1">
+          <mxGeometry height="54" width="189" x="988" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-15" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="SMS/Email Service" vertex="1">
+          <mxGeometry height="54" width="191" x="987" y="332" as="geometry" />
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-16" edge="1" parent="1" style="curved=1;startArrow=none;endArrow=block;entryX=0;entryY=0.5;rounded=0;entryDx=0;entryDy=0;" target="kaX32r68s56GTiOCYPDK-2" value="UserAPI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="210" y="197" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-17" edge="1" parent="1" source="kaX32r68s56GTiOCYPDK-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=0;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;" target="kaX32r68s56GTiOCYPDK-3" value="OrderAPI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="576" y="47" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-18" edge="1" parent="1" source="kaX32r68s56GTiOCYPDK-2" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.34;entryX=0;entryY=0.5;rounded=0;" target="kaX32r68s56GTiOCYPDK-4" value="OrderAPI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="576" y="151" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-19" edge="1" parent="1" source="kaX32r68s56GTiOCYPDK-3" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="kaX32r68s56GTiOCYPDK-12" value="RouteAPI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-20" edge="1" parent="1" source="kaX32r68s56GTiOCYPDK-4" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="kaX32r68s56GTiOCYPDK-13" value="TrackAPI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-21" edge="1" parent="1" source="kaX32r68s56GTiOCYPDK-5" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="kaX32r68s56GTiOCYPDK-14" value="PaymentAPI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-22" edge="1" parent="1" source="kaX32r68s56GTiOCYPDK-6" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="kaX32r68s56GTiOCYPDK-15" value="NotifyAPI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-23" edge="1" parent="1" source="kaX32r68s56GTiOCYPDK-1" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=1;entryX=0;entryY=0.75;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="kaX32r68s56GTiOCYPDK-6" value="NotifyAPI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-24" edge="1" parent="1" source="kaX32r68s56GTiOCYPDK-2" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.75;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;" target="kaX32r68s56GTiOCYPDK-5" value="PaymentAPI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="576" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kaX32r68s56GTiOCYPDK-25" edge="1" parent="1" source="kaX32r68s56GTiOCYPDK-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=1;entryX=0;entryY=0.25;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="kaX32r68s56GTiOCYPDK-6" value="NotifyAPI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
